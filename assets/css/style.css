@@ -1,0 +1,47 @@
+/* Tools */
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+/* Colors */
+
+/* Resizing */
+.carousel {
+    padding: 20px 20px;
+}
+.col-sm i {
+    font-size: 30px;
+}
+
+/* links */
+
+* a {
+    text-decoration: none;
+}
+
+/* images */
+#carouselHero .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.card img{
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    padding-left: 30px;
+}
+
+/* Form */
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>ESSL</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ESSL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="team.html">The team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-uppercase" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <ul class="dropdown-menu text-uppercase">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+    </nav>
+
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Any questions?</h3>
+                <h5 class="uppercase text-center">Let's work together!</h5>
+
+                <div class="center-form">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="10" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase md-4 font-weight-bold text-warning">ESSL</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At facilis nulla corporis vel dicta nihil aut rerum totam dolores quisquam cum, natus quia molestiae consectetur praesentium repellendus.</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase md-4 font-weight-bold text-warning">Products</h5>
+                    <p>
+                        <a href="#" class="text-white" target="_blanck">The products 1</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" target="_blanck">The products 2</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" target="_blanck">The products 3</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" target="_blanck">The products 4</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase md-4 font-weight-bold text-warning">Social media links</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none"><i class="fa-brands fa-facebook"></i></a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none"><i class="fa-brands fa-instagram"></i></a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none"><i class="fa-brands fa-twitter"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase md-4 font-weight-bold text-warning">Contact</h5>
+                    <p>
+                        <i class="fa-solid fa-house"></i> Address of main office
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i> +34(0)9237498282
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i> something@gmail.com
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-12">
+                    <p>Copyright ©2022 All rights reserved by:
+                        <a href="https://www.linkedin.com/in/christian-bergane-531184231/" target="_blank">
+                            <strong class="text-warning">Christian Bergane</strong>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/96a4d5e388.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
